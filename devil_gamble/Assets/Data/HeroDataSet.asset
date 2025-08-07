@@ -1,0 +1,341 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1418f818da8566b4f8c3fc442a65bebb, type: 3}
+  m_Name: HeroDataSet
+  m_EditorClassIdentifier: 
+  _characterCSV: {fileID: 4900000, guid: fc4fc429cec75cb488cdcad4089bfa53, type: 3}
+  _characterCardsList:
+  - id: 1
+    characterName: Goblin Grunt
+    characterDescription: A lowly goblin foot soldier
+    characterSprite: {fileID: 21300000, guid: d56bb8478ada828428b1f28f16f1dbd8, type: 3}
+    rarity: 0
+    characterTeam: 1
+    baseAttack: 5
+    baseHealth: 30
+    baseSpeed: 2
+    currentHealth: 0
+    currentAttack: 0
+    currentSpeed: 0
+    level: 1
+  - id: 2
+    characterName: Ice Mage
+    characterDescription: Master of frost magic
+    characterSprite: {fileID: 21300000, guid: 5ad8dbe56940bb346ad9b488ca11498c, type: 3}
+    rarity: 0
+    characterTeam: 1
+    baseAttack: 8
+    baseHealth: 100
+    baseSpeed: 3
+    currentHealth: 0
+    currentAttack: 0
+    currentSpeed: 0
+    level: 1
+  - id: 3
+    characterName: Stone Golem
+    characterDescription: A hulking golem made of rock
+    characterSprite: {fileID: 21300000, guid: 878f69fbf434d504bbc3e8a80eb3a1a6, type: 3}
+    rarity: 1
+    characterTeam: 1
+    baseAttack: 50
+    baseHealth: 500
+    baseSpeed: 1
+    currentHealth: 0
+    currentAttack: 0
+    currentSpeed: 0
+    level: 1
+  - id: 4
+    characterName: Crystal Keeper
+    characterDescription: Guardian of the crystal realm
+    characterSprite: {fileID: 21300000, guid: 63c6819d724bb1941af5651c1038abad, type: 3}
+    rarity: 2
+    characterTeam: 1
+    baseAttack: 50
+    baseHealth: 1900
+    baseSpeed: 4
+    currentHealth: 0
+    currentAttack: 0
+    currentSpeed: 0
+    level: 2
+  - id: 5
+    characterName: Forest Spider
+    characterDescription: A giant arachnid lurking in forests
+    characterSprite: {fileID: 21300000, guid: 0f641b8046cfab04597dd173cd68b19d, type: 3}
+    rarity: 0
+    characterTeam: 1
+    baseAttack: 6
+    baseHealth: 40
+    baseSpeed: 3
+    currentHealth: 0
+    currentAttack: 0
+    currentSpeed: 0
+    level: 1
+  - id: 6
+    characterName: Swamp Rat King
+    characterDescription: Rodent ruler of the swamps
+    characterSprite: {fileID: 21300000, guid: c63b6191b762de64d8cded5a00ea620f, type: 3}
+    rarity: 1
+    characterTeam: 1
+    baseAttack: 15
+    baseHealth: 300
+    baseSpeed: 2
+    currentHealth: 0
+    currentAttack: 0
+    currentSpeed: 0
+    level: 1
+  - id: 7
+    characterName: Fire Serpent
+    characterDescription: A fiery serpent from magma pools
+    characterSprite: {fileID: 21300000, guid: 4399a17a74e5b6b43a7209e0d4dd0551, type: 3}
+    rarity: 1
+    characterTeam: 1
+    baseAttack: 40
+    baseHealth: 600
+    baseSpeed: 3
+    currentHealth: 0
+    currentAttack: 0
+    currentSpeed: 0
+    level: 2
+  - id: 8
+    characterName: Dark Rogue
+    characterDescription: A sneaky assassin in the shadows
+    characterSprite: {fileID: 21300000, guid: 70bd2fdbdc2896046b10840fc8f05929, type: 3}
+    rarity: 0
+    characterTeam: 1
+    baseAttack: 12
+    baseHealth: 80
+    baseSpeed: 5
+    currentHealth: 0
+    currentAttack: 0
+    currentSpeed: 0
+    level: 2
+  - id: 9
+    characterName: Hill Bandit
+    characterDescription: A freelance bandit in the hills
+    characterSprite: {fileID: 21300000, guid: d24648c953ca28a4bab429be3bb75e42, type: 3}
+    rarity: 0
+    characterTeam: 1
+    baseAttack: 10
+    baseHealth: 60
+    baseSpeed: 3
+    currentHealth: 0
+    currentAttack: 0
+    currentSpeed: 0
+    level: 1
+  - id: 10
+    characterName: Flame Warden
+    characterDescription: A sentinel wielding a molten sword
+    characterSprite: {fileID: 21300000, guid: dec76373fff0190429fa5e604b15e956, type: 3}
+    rarity: 6
+    characterTeam: 1
+    baseAttack: 50
+    baseHealth: 200
+    baseSpeed: 2
+    currentHealth: 0
+    currentAttack: 0
+    currentSpeed: 0
+    level: 2
+  - id: 11
+    characterName: Venom Vulture
+    characterDescription: A toxic bird soaring above wastelands
+    characterSprite: {fileID: 21300000, guid: 56f6e2a1d798183458dfab5ad8b823c0, type: 3}
+    rarity: 0
+    characterTeam: 1
+    baseAttack: 7
+    baseHealth: 45
+    baseSpeed: 4
+    currentHealth: 0
+    currentAttack: 0
+    currentSpeed: 0
+    level: 1
+  - id: 12
+    characterName: Cave Troll
+    characterDescription: A brutish troll dwelling underground
+    characterSprite: {fileID: 21300000, guid: 1aad396d73ebd1c4687ddfe9afda3121, type: 3}
+    rarity: 2
+    characterTeam: 1
+    baseAttack: 65
+    baseHealth: 1700
+    baseSpeed: 1
+    currentHealth: 0
+    currentAttack: 0
+    currentSpeed: 0
+    level: 2
+  - id: 13
+    characterName: Sand Wraith
+    characterDescription: A phantom haunting the desert
+    characterSprite: {fileID: 21300000, guid: a61da8afd76b8b241a3e7cd0cdadd3d3, type: 3}
+    rarity: 1
+    characterTeam: 1
+    baseAttack: 30
+    baseHealth: 400
+    baseSpeed: 3
+    currentHealth: 0
+    currentAttack: 0
+    currentSpeed: 0
+    level: 1
+  - id: 14
+    characterName: Blight Witch
+    characterDescription: A sorceress of corrupt magics
+    characterSprite: {fileID: 21300000, guid: 54ca7d78fbe948742bfb268ab8a9b3ac, type: 3}
+    rarity: 1
+    characterTeam: 1
+    baseAttack: 45
+    baseHealth: 550
+    baseSpeed: 2
+    currentHealth: 0
+    currentAttack: 0
+    currentSpeed: 0
+    level: 2
+  - id: 15
+    characterName: Iron Beetle
+    characterDescription: A metallic insect with hardened shell
+    characterSprite: {fileID: 21300000, guid: 670b0fd6f8fd49c4d9255a16ec314727, type: 3}
+    rarity: 0
+    characterTeam: 1
+    baseAttack: 9
+    baseHealth: 120
+    baseSpeed: 2
+    currentHealth: 0
+    currentAttack: 0
+    currentSpeed: 0
+    level: 1
+  - id: 16
+    characterName: Battle Construct
+    characterDescription: A mechanical fighter
+    characterSprite: {fileID: 21300000, guid: beee79abbaff3d344a8a378d05e60198, type: 3}
+    rarity: 1
+    characterTeam: 1
+    baseAttack: 16
+    baseHealth: 510
+    baseSpeed: 2
+    currentHealth: 0
+    currentAttack: 0
+    currentSpeed: 0
+    level: 1
+  - id: 17
+    characterName: Ravager
+    characterDescription: A vicious brute
+    characterSprite: {fileID: 21300000, guid: 252a479f29d8cc04ba115396fac6ad14, type: 3}
+    rarity: 2
+    characterTeam: 1
+    baseAttack: 23
+    baseHealth: 1800
+    baseSpeed: 3
+    currentHealth: 0
+    currentAttack: 0
+    currentSpeed: 0
+    level: 1
+  - id: 18
+    characterName: Void Stalker
+    characterDescription: A shadowy hunter of souls
+    characterSprite: {fileID: 21300000, guid: 6703dbfba44aea649ab857919e98cd86, type: 3}
+    rarity: 1
+    characterTeam: 1
+    baseAttack: 35
+    baseHealth: 650
+    baseSpeed: 4
+    currentHealth: 0
+    currentAttack: 0
+    currentSpeed: 0
+    level: 2
+  - id: 19
+    characterName: Shadow Beast
+    characterDescription: A creature of nightmares
+    characterSprite: {fileID: 21300000, guid: c9fbdd8d28c7ca74882b15404ab609a6, type: 3}
+    rarity: 2
+    characterTeam: 1
+    baseAttack: 70
+    baseHealth: 1600
+    baseSpeed: 4
+    currentHealth: 0
+    currentAttack: 0
+    currentSpeed: 0
+    level: 2
+  - id: 20
+    characterName: Guardian Paladin
+    characterDescription: Defender of the realm
+    characterSprite: {fileID: 21300000, guid: 4aeac9446c82cc040840f785fb3e0b96, type: 3}
+    rarity: 4
+    characterTeam: 0
+    baseAttack: 30
+    baseHealth: 400
+    baseSpeed: 3
+    currentHealth: 0
+    currentAttack: 0
+    currentSpeed: 0
+    level: 1
+  - id: 21
+    characterName: The Trapper
+    characterDescription: Master of illusions
+    characterSprite: {fileID: 21300000, guid: a405cd05a37aa774bbe238a5a117fadd, type: 3}
+    rarity: 1
+    characterTeam: 0
+    baseAttack: 100
+    baseHealth: 200
+    baseSpeed: 2
+    currentHealth: 0
+    currentAttack: 0
+    currentSpeed: 0
+    level: 2
+  - id: 22
+    characterName: Mystic Sage
+    characterDescription: Keeper of ancient knowledge
+    characterSprite: {fileID: 21300000, guid: 07af000145a58ee46855f8dd9347ce43, type: 3}
+    rarity: 6
+    characterTeam: 0
+    baseAttack: 40
+    baseHealth: 250
+    baseSpeed: 2
+    currentHealth: 0
+    currentAttack: 0
+    currentSpeed: 0
+    level: 3
+  - id: 23
+    characterName: Thunder Lord
+    characterDescription: Wielder of storms
+    characterSprite: {fileID: 21300000, guid: 03f116ac8fa918245a3c8436fb7d1f90, type: 3}
+    rarity: 6
+    characterTeam: 0
+    baseAttack: 50
+    baseHealth: 180
+    baseSpeed: 5
+    currentHealth: 0
+    currentAttack: 0
+    currentSpeed: 0
+    level: 4
+  - id: 24
+    characterName: Celestial Archer
+    characterDescription: Archer of the stars
+    characterSprite: {fileID: 21300000, guid: 92d60ecb0a6a1b743a16d39016afdab3, type: 3}
+    rarity: 4
+    characterTeam: 0
+    baseAttack: 10
+    baseHealth: 500
+    baseSpeed: 4
+    currentHealth: 0
+    currentAttack: 0
+    currentSpeed: 0
+    level: 3
+  - id: 25
+    characterName: Frost Warrior
+    characterDescription: A knight of icy blades
+    characterSprite: {fileID: 21300000, guid: 7822d99e811942840964ca778d845564, type: 3}
+    rarity: 1
+    characterTeam: 0
+    baseAttack: 20
+    baseHealth: 300
+    baseSpeed: 3
+    currentHealth: 0
+    currentAttack: 0
+    currentSpeed: 0
+    level: 2

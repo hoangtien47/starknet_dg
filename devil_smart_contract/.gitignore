@@ -1,0 +1,16 @@
+target
+.snfoundry_cache/
+snfoundry_trace/
+coverage/
+profile/
+
+# Environment files
+.env
+.env.*
+.env.local
+.envrc
+
+# Virtual environments
+env/
+venv/
+.venv/
